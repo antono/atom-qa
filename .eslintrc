@@ -1,0 +1,32 @@
+{
+	"env": {
+		"es6": true,
+		"node": true,
+		"browser": true,
+		"jasmine": true
+	},
+	"parser": "babel-eslint",
+	"rules": {
+		"strict": 0,
+		"quotes": [
+			2,
+			"single"
+		],
+		"linebreak-style": [
+			2,
+			"unix"
+		],
+		"semi": [
+			2,
+			"always"
+		]
+	},
+	"globals": {
+		"atom": true,
+		"waitsForPromise": true,
+	},
+	"ecmaFeatures": {
+		"modules": true
+	},
+	"extends": "eslint:recommended"
+}

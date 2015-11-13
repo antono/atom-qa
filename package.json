@@ -3,16 +3,21 @@
   "main": "./lib/atom-qa",
   "version": "0.0.0",
   "description": "A short description of your package",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-qa:toggle"
   },
-  "repository": "https://github.com/atom/atom-qa",
+  "repository": "https://github.com/antono/atom-qa",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "selenium-standalone": "^4.7.1",
+    "webdriverio": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.5",
+    "eslint": "^1.9.0"
   }
 }
