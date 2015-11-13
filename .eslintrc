@@ -23,7 +23,7 @@
 	},
 	"globals": {
 		"atom": true,
-		"waitsForPromise": true,
+		"waitsForPromise": true
 	},
 	"ecmaFeatures": {
 		"modules": true
